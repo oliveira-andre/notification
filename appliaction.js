@@ -32,7 +32,6 @@ function notification(type, text){
 }
 
 function notificationDismiss(){
-    var notification = document.getElementsByClassName('notification');
     for (i = 0, notification_class.length; i < notification_class.length; i++) {
         notification_class[i].style.visibility = 'hidden';
         notification_class[i].style.animation = '';        
